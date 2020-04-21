@@ -1,0 +1,13 @@
+ls
+
+pwd: duong dan hien tai
+
+sudo apt install nodejs
+
+sudo apt remove nodejs npm
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+parius icon
+adaota-nokto
+cblue
+
+zsh
+tmux
+    tmux plugin manager
+vim
+    vim-plug
+
+wps
+online account
+bamboo ibus
+
+dracular
+    Install dracula with: git clone https://github.com/dracula/vim ~/.vim/pack/default/start/dracula
+    Add .vimrc:
+    colorscheme dracula
+    syntax on
+
+
+the_silver_searcher (key ag)
+
+- install plugin vim
+https://www.youtube.com/watch?v=-uyFC5ixUQw
+call plug#begin('~/.vim/bundle')
+
+
+" Define bundles via Github repos
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-surround'
+Plug 'alvan/vim-closetag'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdcommenter'
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'dracula/vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'honza/vim-snippets'
+Plug 'ervandew/supertab'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+call plug#end()

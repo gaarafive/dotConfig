@@ -1,0 +1,4 @@
+ls : list items
+la: list include hidden items
+cd: change directory
+
