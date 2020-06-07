@@ -3,6 +3,8 @@ adaota-nokto
 cblue
 
 zsh
+    oh-my-zsh
+    fzf (finder)
 tmux
     tmux plugin manager
 vim
