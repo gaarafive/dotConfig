@@ -8,4 +8,5 @@ parse: p
     Ctrl + W: switch
     t : open new tab
     gt : swich tab
+    m : open menu explorer
     
