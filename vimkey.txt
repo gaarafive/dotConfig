@@ -1,0 +1,9 @@
+:PlugInstall
+:PlugUpdate
+
+coppy: y
+parse: p
+
+:NERDTree
+    Ctrl + W
+    
