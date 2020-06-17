@@ -5,5 +5,7 @@ coppy: y
 parse: p
 
 :NERDTree
-    Ctrl + W
+    Ctrl + W: switch
+    t : open new tab
+    gt : swich tab
     
