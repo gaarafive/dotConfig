@@ -59,4 +59,7 @@ add ssh github https://help.github.com/en/github/authenticating-to-github/genera
 visual studio code 
     Atom Material Theme
 
+Modify speed roll on linux mint
+    sudo apt-get install imwheel zenity
+    then run 'bash wheel.sh'
 
