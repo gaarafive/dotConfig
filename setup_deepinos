@@ -1,0 +1,14 @@
+BAMBOO
+Đầu tiên cài ibus-bamboo, có thể làm theo hướng dẫn từ github bamboo hoặc tải về từ open sure
+https://software.opensuse.org//download.html?project=home:lamlng&package=ibus-bamboo
+Tiếp theo chạy lệnh sudo apt install ibus dconf-editor từ Terminal, nhập mật khẩu vào rồi enter.
+Tiếp theo im-config -a,
+(nếu kết quả trả về là zenty not found thì nhập lệnh sudo apt-get install zenity
+chạy lại lệnh im-config -a)
+chọn ibus từ cửa sổ mới hiện ra.
+tiếp theo nhập lệnh dconf-editor
+tìm tới desktop->ibus->general sau đó chuyển dòng "enable-by-default" từ false thành true.
+sau đó reboot. Nếu vẫn chưa gõ được tiếng việt thì làm tiếp
+sudo apt install ibus ibus-gtk ibus-gtk3 ibus-qt1 ibus-qt4 ibus-pinyin im-config
+gỡ bỏ các tệp thừa của ibus
+sudo rm -f /usr/share/im-config/data/23_ibus.*
