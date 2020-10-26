@@ -1,3 +1,6 @@
+Setup deepin: EFI partition (filesystem efi) and a / (Root) partition => https://linuxhint.com/install_deepin_linux/
+
+
 - BAMBOO
 Đầu tiên cài ibus-bamboo, có thể làm theo hướng dẫn từ github bamboo hoặc tải về từ open sure
 https://software.opensuse.org//download.html?project=home:lamlng&package=ibus-bamboo
