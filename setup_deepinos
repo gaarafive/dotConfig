@@ -1,4 +1,4 @@
-BAMBOO
+- BAMBOO
 Đầu tiên cài ibus-bamboo, có thể làm theo hướng dẫn từ github bamboo hoặc tải về từ open sure
 https://software.opensuse.org//download.html?project=home:lamlng&package=ibus-bamboo
 Tiếp theo chạy lệnh sudo apt install ibus dconf-editor từ Terminal, nhập mật khẩu vào rồi enter.
@@ -12,3 +12,13 @@ sau đó reboot. Nếu vẫn chưa gõ được tiếng việt thì làm tiếp
 sudo apt install ibus ibus-gtk ibus-gtk3 ibus-qt1 ibus-qt4 ibus-pinyin im-config
 gỡ bỏ các tệp thừa của ibus
 sudo rm -f /usr/share/im-config/data/23_ibus.*
+
+- Pulse Audio Control
+
+
+
+
+
+KEYWORD
+ctrl + alt + T => open terminal
+ctrl + shift + /  => tutorial
